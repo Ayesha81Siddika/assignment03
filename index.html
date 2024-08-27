@@ -12,18 +12,21 @@
         .font-manrope {
   font-family: "Manrope", sans-serif;
   }
+  .next_project{
+    background-image: url(assets/bg.jpg);
+  }
  </style>
 </head>
  <body class="font-manrope"> 
     <header class="bg-gradient-to-b from-gray-300 to-white md:px-32 py-14">
         <!-- banner navigation part -->
-        <nav class="flex justify-between space-x-2">
+        <nav class="flex justify-between md:space-x-2 sm:w-full">
             <h3 class="nav-title text-3xl font-bold"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline bg-[#ABEF5F80] px-1">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
               
                 Rinterio</h3>
-               <ul class="flex space-x-3.5 ">
+               <ul class="flex space-x-3.5  sm:hidden">
                 <li class="text-base font-bold">Home</a></li>
                 <li class="text-base font-normal">Services</a></li>
                 <li class="text-base font-normal">Portfolio</li>
@@ -41,10 +44,16 @@
                   </li>
                  <button class="bg-[#ABEF5F] rounded-2xl px-3.5 py-1 text-xl font-extrabold">Book Consult</button>
                </ul>
+               <ul class="md:hidden sm:visible">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                  </svg>
+                  
+               </ul>
            </nav>  
      
     <div class="text-center">
-       <img class="py" src="assets/banner.png" alt="" > 
+       <img class="py mx-auto" src="assets/banner.png" alt="" > 
        <h1 class="font-extrabold text-6xl py-4" >A barn house of this design has a <br> striking appearance</h1>
        <p class="font-medium text-base py-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
        <button class="bg-[#ABEF5F80] py-1 px-5 rounded-2xl font-bold text-xl" >
@@ -55,10 +64,169 @@
     </div>
     </header>
     <main>
+      <!-- sction about us -->
+      <section class=" bg-gray-300 md:px-32">
+        <img class="sm:hidden" src="assets/Vector.png" alt="">
+        <div class=" md:flex gap-5 lg:flex gap-5 sm:text-center ">
+          <div class="p-10 sm:p-1">
+          <button class="text-base font-bold sm:center">About Us</button>
+          <h3 class="font-bold text-5xl py-4">We design thoughtful,<br> liveable spaces</h3>
+          <p class="text-base font-medium py-6">The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <div  class="flex gap-3 py-5 bg-white px-6 sm:mx-10 ">
+             <div >
+              <img  src="assets/commercial.png" alt="">
+             </div>
+             <div class="text-left ">
+              <h6 class="text-xl font-extrabold pb-2">Commercial</h6>
+              <p class="font-medium text-xs">The barn house captivates with its blend of rustic charm and modern.</p>
+             </div>
+          </div>
+          <div class="flex gap-3 bg-white my-2 px-6 sm:mx-10">
+            <div>
+              <img src="assets/residential.png" alt="">
+            </div>
+            <div class="text-left">
+              <h6 class="text-xl font-extrabold pb-2">Residential</h6>
+              <p class="font-medium text-xs">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+         </div>
 
+        </div>
+        <div >
+           <img class="h-full rounded-xl sm:m-auto" src="assets/Rectangle.png" alt="">
+        </div>
+      </div>
+      </section>
+      <!-- our work process -->
+      <section class="bg-gray-300 py-7 md:px-32">
+        <div class="text-center">
+          <button class="text-base font-bold bg-slate-200 px-1 py-1 ">How we works</button>
+          <h4 class="text-4xl font-bold py-8">Our Works Process</h4>
+          <p class="text-base font-medium py-3" >The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+         <div class="lg:flex gap-6 py-6 mx-10 my-5 "> 
+          <div class="text-left bg-[#E7C1D3] rounded-md px-2 py-2 my-2">
+            <img class="h-6 w-6" src="assets/concept.png" alt="">
+            <h6 class="text-xl font-extrabold px-1">Concept</h6>
+            <p class="font-medium text-base pt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="bg-[#EFDA6E] rounded-md px-2 py-2 my-2">
+            <img class="h-6 w-6" src="assets/flow-chart.png" alt="">
+            <h6 class="text-xl font-extrabold px-1">Design Process</h6>
+            <p class="font-medium text-base pt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="bg-[#A4DAC3] rounded-md px-2 py-2 my-2">
+            <img class="h-6 w-6" src="assets/vision.png" alt="">
+            <h6 class="text-xl font-extrabold px-1">Supervision</h6>
+            <p class="font-medium text-base pt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="bg-[#77AAEA] rounded-md px-2 py-2 my-2">
+            <img class="h-6 w-6" src="assets/budget-planning.png" alt="">
+            <h6 class="text-xl font-extrabold px-1">Budget Planning</h6>
+            <p class="font-medium text-base pt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+        </div>
+      </section>
+      <!-- latest Portfolio -->
+      <section class="px-32">
+        <div class="text-center px-32 py-10">
+          <button class="text-base font-bold bg-[#ABEF5F33] px-2 py-1">How we works</button>
+          <h4 class="text-4xl font-bold py-6">Our Latest Portfolio</h4>
+          <p class="font-medium text-base">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="lg:grid grid-cols-3 gap-5">
+          <div class=" grid col-span-2 ">
+            <div class="flex gap-2">
+            <div>
+            <img class="h-full w-full" src="assets/img1.png" alt=""></div>
+            <div>
+            <h6 class="text-2xl text-2xl">Commercial</h6>
+            <p class="font-medium text-base">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+          <button class="bg-[#ABEF5F80] text-xl font-extrabold">View Details</button></div></div>
+          </div>
+          <div>
+            <img class="h-full w-full px-5 py-5" src="assets/img2.png" alt="">
+            
+          </div>
+          <div>
+            <img class="h-full w-full px-5 py-5" src="assets/img3.png" alt="">
+            
+          </div>
+          <div class="flex gap-2"> 
+            <div>
+            <img class="h-full w-full " src="assets/img4.png" alt=""></div>
+            <div>
+            <h6 class="text-2xl text-2xl">Commercial</h6>
+            <p class="font-medium text-base">The barn house captivates with its blend of rustic charm and modern. </p>
+          <button class="bg-[#ABEF5F80] text-xl font-extrabold">View Details</button></div>
+          </div>
+          <div>
+            <img class="h-full w-full px-5 py-5" src="assets/img5.png" alt="">
+            
+          </div>
+        </div>
+      </section>
+    <!-- Let's discuss out Next Project -->
+        <section class="px-32 my-5 next_project ">
+          <div class="text-center py-20">
+            <button class="bg-[#ABEF5F80] text-xl font-extrabold px-2 rounded-md mb-4">Let’s Connect</button>
+            <h6 class="font-bold text-4xl py-5">Let’s Discuss Next Project</h6>
+            <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents</p>
+          </div>
+          <div class="m-auto">
+            <div class="lg:flex ">
+              <form action=""></form>
+              <input class="mx-10 my-5 px-3 py-1 rounded-md" type="text" placeholder="First Name">
+              <input class="mx-10 my-5 px-3 py-1 rounded-md" type="text" placeholder="Phone Number">
+            </div>
+            <div class="lg:flex ">
+              <form action=""></form>
+              <input class="mx-10 my-5 px-3 py-1 rounded-md" type="text" placeholder="Last Name">
+              <input class="mx-10 my-5 px-3 py-1 rounded-md" type="text" placeholder="Email Number">
+            </div>
+            <input class="mx-10 my-5 px-3 py-1 rounded-md" type="text" placeholder="Write Your message here ">
+          </div>
+          <div>
+            <button class="font-extrabold text-xl bg-[#ABEF5F80] px-44 mx-10 rounded-md mb-5">Send Mail <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+            </button>
+          </div>
+        </section>
+     <!-- new creative section -->
+        <section class="mx-32">
+            <div class="text-center">
+              <h4 class="text-4xl font-bold py-6">Our Reknowned Project</h4>
+              <p class="text-base font-medium" >We may able to know our Reknowned projects from the part for investicate us deeply and can handover a project to us for development </p>
+              <div class="lg:flex gap-5">
+                <div class="text-left py-2 px-5 bg-orange-200 my-5 rounded-3xl">
+                  <h6 class="font-extrabold text-xl">Jassore</h6>
+                  <p>Adresss:110 Konapara Ship Building <br>Jassore</p>
+                </div>
+                <div class="text-left py-2 px-5 bg-orange-200 my-5 rounded-3xl">
+                  <h6 class="font-extrabold text-xl">Dhaka North</h6>
+                  <p>Adresss:127/B Abu Al House <br>Dhaka-1220</p>
+                </div>
+                <div class="text-left py-2 px-5 bg-orange-200 my-5 rounded-3xl">
+                  <h6 class="font-extrabold text-xl">Dhaka South</h6>
+                  <p>Adresss:770 Jolshiri House Building <br>Dhaka</p>
+                </div>
+              </div>
+              <button class="bg-lime-300 px-2 py-1 rounded-md">Learn More... ...</button>
+            </div>
+        </section>
     </main>
     <footer>
-
+         <h6></h6>
+         <p></p>
+         <div>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button> 
+          <button></button>
+         </div>
     </footer>
 </body>
 </html>
